@@ -62,11 +62,17 @@
       <!-- Indicators -->
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>NetworkSearch</h1>
-              <p>Network search makes operational data available in real-time to management applications. In contrast to traditional monitoring, neither the data location nor the data format needs to be known to the invoking process, which simplifies application development, but requires an efficient search plane inside the managed system. The search plane is realized as a network of search nodes that process search queries in a distributed fashion. This presentation focuses on the design of a search node, which maintains a real-time database of operational information and allows for parallel processing of search queries.</p>
+          
+          <div id="top-catch">
+            <div id="top-caption">
+              <h1>Network Search</h1>
+              <form class="form-inline" role="form">
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputPassword2">Googling Network</label>
+                  <input type="password" class="form-control col-xs-4  col-sm-4" id="exampleInputPassword2" placeholder="Googling Network">
+                </div>
+                <a href="https://github.com/NetworkSearch/NetworkSearch" target="_blank" class="btn btn btn-primary">Fork me on github</a>
+              </form>
             </div>
           </div>
         </div>
@@ -161,7 +167,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src='smooth-scroll.js'></script>
+    <script src='./js/smooth-scroll.js'></script>
     <script>
     smoothScroll.init({
         speed: 1000,
